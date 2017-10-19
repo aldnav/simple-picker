@@ -1,0 +1,29 @@
+html, body {
+    font-family: Arial, 'Open Sans', sans-serif;
+    background-color: rgba(0,0,0,0.9);
+    color: white;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+button {
+    background-color: #cd6a51;
+    color: white;
+    border: none;
+    border-radius: 2px;
+    padding: 10px 40px;
+    font-size: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+button:disabled {
+    background-color: #776b68;
+    cursor: not-allowed;
+}
