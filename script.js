@@ -42,7 +42,7 @@ function play() {
                     selected.push(select);
                     items.splice(items.indexOf(select), 1);
                     label.textContent = select;
-                    selectedLabel.innerHTML = selected.join('&nbsp;');
+                    selectedLabel.innerHTML = selected.join('<br/>');
                     rollBtn.textContent = 'ROLL!';
                     rollBtn.disabled = items.length === 0;
                     if (rollBtn.disabled) {
